@@ -1,0 +1,20 @@
+Usando Biblioteca Arduino IDE Modificada para resoluções simples de imagem
+Usando OpenCV para WebServer e YOLO-V5 para detecção de pessoas
+
+
+
+1 sudo apt install ffmpeg python3-opencv python3-pip
+
+2 sudo apt install libxcb-shm0 libcdio-paranoia-dev libsdl2-2.0-0 libxv1  libtheora0 libva-drm2 libva-x11-2 libvdpau1 libharfbuzz0b libbluray2 libatlas-base-dev libhdf5-103 libgtk-3-0 libdc1394-dev libopenexr-dev
+
+3 sudo pip3 install mediapipe-rpi3
+
+4 pip install protobuf==3.20.1
+
+5 pip install gpiod
+
+\\192.168.0.1 >> acessar pasta samba
+
+
+http://10.29.245.83 > camera
+http://10.29.245.84 > dietpi
