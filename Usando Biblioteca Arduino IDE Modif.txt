@@ -18,3 +18,20 @@ Usando OpenCV para WebServer e YOLO-V5 para detecção de pessoas
 
 http://10.29.245.83 > camera
 http://10.29.245.84 > dietpi
+
+
+caminho para autostart> cd /etc/xdg/autostart
+nano lxterminal.desktop
+[Desktop Entry]
+Name=lxterminal
+Type=Application
+Exec=lxterminal -e ""
+Terminal=true
+
+===
+
+/bin/nano HSCAM
+#!/bin/bash
+cd /home/HSCAM
+python3 HSCAM.py
+/bin/bash
